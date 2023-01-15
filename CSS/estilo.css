@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color: #F7C331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #d4d0d0;
+    --menu-mobile-background-color: #3A4460;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--theme-color);
+}
+
+section [id]{
+    scroll-margin-top: 70px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 75px;
+}
+
+.observer-root-margin{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+    background: linear-gradient(to top, rgba(43, 49, 53, 0.8), rgb(63, 68, 71)),
+    url(https://blog.linkaform.com/hs-fs/hubfs/mhYv1DC-1.jpg?width=796&name=mhYv1DC-1.jpg);
+    background-size: cover;
+}
+
+.vertical-padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: linear-gradient(to top, rgba(43, 49, 53, 0.8), rgb(63, 68, 71)),
+    url(https://blog.linkaform.com/hs-fs/hubfs/mhYv1DC-1.jpg?width=796&name=mhYv1DC-1.jpg);
+    background-size: cover;
+}
+
+@media (min-width: 950px){
+    .horizontal-padding{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .vertical-padding{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
